@@ -39,6 +39,10 @@ import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from "reac
       <TouchableOpacity style={styles.button}>
         <Text>Enviar</Text>
       </TouchableOpacity>
+
+       <TouchableOpacity style={styles.botaoLogin}>
+              <Text>Já possuo cadastro.</Text>
+            </TouchableOpacity>
       </View>
   
    );
